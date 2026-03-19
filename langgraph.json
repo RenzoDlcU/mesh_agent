@@ -1,0 +1,8 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "mesh_agent": "./src/agents/mesh_agent.py:mesh_agent",
+    "kirby_hammurabi_agent": "./src/agents/kirby_hammurabi_agent.py:kirby_hammurabi_agent"
+  },
+  "env": ".env"
+}

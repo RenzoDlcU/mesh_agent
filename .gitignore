@@ -1,0 +1,33 @@
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+
+# ── Entornos virtuales ───────────────────────────────────
+.venv/
+
+# ── Variables de entorno ─────────────────────────────────
+.env
+!.env.example
+
+# ── IDEs ─────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ── LangGraph ────────────────────────────────────────────
+.langgraph_api/
+
+# ── Jupyter Notebooks ────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── OS ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
